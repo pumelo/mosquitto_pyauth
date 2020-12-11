@@ -14,8 +14,7 @@ ifdef USE_CARES
 LIBS += -lcares
 endif
 
-CFLAGS += -I$(MOSQUITTO_SRC)/src/
-CFLAGS += -I$(MOSQUITTO_SRC)/lib/
+CFLAGS += -I$(MOSQUITTO_SRC)/headers/
 
 #LDFLAGS =-lmosquitto
 LDFLAGS += -L$(MOSQUITTO_SRC)/lib/
