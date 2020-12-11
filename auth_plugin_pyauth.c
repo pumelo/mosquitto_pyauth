@@ -5,8 +5,9 @@
 #include <assert.h>
 #include <Python.h>
 #include <mosquitto.h>
-#include <mosquitto_plugin.h>
 #include <mosquitto_broker.h>
+#include <mosquitto_plugin.h>
+
 
 #if !defined(LIBMOSQUITTO_VERSION_NUMBER) || LIBMOSQUITTO_VERSION_NUMBER < 1005001
 #error "mosquitto 1.5.1 or higher is required"
